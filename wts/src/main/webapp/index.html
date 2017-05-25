@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="w2sTaxApp">
+<head>
+<meta charset="ISO-8859-1">
+<title>Home page</title>
+
+<script type="text/javascript" src="angular/angular.js"></script>
+<script type="text/javascript" src="module/w2sApp.js"></script>
+<script type="text/javascript" src="controller/w2sTaxController.js"></script>
+
+</head>
+<body>
+	<div ng-controller="w2sTaxController">
+	<table>
+	<thead>
+	<tr>
+	<th>labelName</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+	<th>{{messages}}
+	</th>
+	</tr>
+	</tbody>
+	</table>
+	</div>
+</body>
+</html>
