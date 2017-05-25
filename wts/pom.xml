@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>hackathon</groupId>
-	<artifactId>wts</artifactId>
+	<artifactId>w2s</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>wts Maven Webapp</name>
+	<name>w2s Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
 		<dependency>
@@ -23,6 +23,6 @@
 
 	</dependencies>
 	<build>
-		<finalName>wts</finalName>
+		<finalName>w2s</finalName>
 	</build>
 </project>
