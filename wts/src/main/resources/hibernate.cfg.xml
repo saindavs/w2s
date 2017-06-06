@@ -1,0 +1,19 @@
+<hibernate-configuration>
+    <session-factory>
+    
+        <property name="connection.driver_class">com.ibm.db2.jcc.DB2Driver</property>
+        <property name="connection.url">"jdbc:db2://apl1.mf.adp.com:5021/DAA1"</property>
+        <property name="connection.username">spodili</property>
+        <property name="connection.password">sreenu41</property>
+
+        <property name="connection.pool_size">1</property>
+        <property name="dialect">org.hibernate.dialect.DB2Dialect</property>
+        <property name="current_session_context_class">thread</property>
+        <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+        <property name="show_sql">true</property>
+        <!-- <property name="hbm2ddl.auto">validate</property> -->
+
+        <mapping class ="models.Category" />
+
+    </session-factory>
+</hibernate-configuration>
